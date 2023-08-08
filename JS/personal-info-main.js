@@ -1,7 +1,7 @@
-//function addScript(url) {
-//    document.write("<script language=javascript src=./config/config.js></script>");
-//}
-//addScript();
+function addScript(url) {
+    document.write("<script language=javascript src=./config/config.js></script>");
+}
+addScript();
 //不使用配置文件请注释点上面代码
 
 //星光依旧灿烂，激情仍然燃烧。因为有梦想，所以我存在。你在你的领域里不惜青春，我在我的道路上不知疲倦。
