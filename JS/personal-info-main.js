@@ -1,39 +1,39 @@
-function addScript(url) {
-    document.write("<script language=javascript src=./config/config.js></script>");
-}
-addScript();
+//function addScript(url) {
+//    document.write("<script language=javascript src=./config/config.js></script>");
+//}
+//addScript();
 //不使用配置文件请注释点上面代码
 
 //星光依旧灿烂，激情仍然燃烧。因为有梦想，所以我存在。你在你的领域里不惜青春，我在我的道路上不知疲倦。
 $(function () {
     if (config) {
-        $(".name").html(config.name);
-        $(".sex").html(config.sex);
-        $(".age").html(config.age);
-        $(".phone").html(config.phone);
-        $(".email").html(config.email);
-        $(".address").html(config.address);
-        $(".qq").html(config.qq);
-        $(".log").html(config.log);
-        $(".self-intro").html(config.welcome);
-        $(".me").html(config.about);
-        $(".for-work").html(config.excpect_work);
-        $(".profile-page .page-header").css("background-image", "url(" + config.url[0] + ")");
-        $(".myphoto").attr("src", config.url[1]);
-        $(".portfolio-section").css({
-            "background": "url(" + config.url[2] + ") no-repeat center top",
-            "margin-top": "30px",
-            "padding-top": "50px",
-            "text-align": "center !important",
-            "background-attachment": "relative !important",
-            "background-position": "center center !important",
-            "min-height": "800px",
-            "width": "100%",
-            "background-size": "100%",
-            "background-size": "cover",
+        $(".name")。html(config.name);
+        $(".sex")。html(config.sex);
+        $(".age")。html(config.age);
+        $(".phone")。html(config.phone);
+        $(".email")。html(config.email);
+        $(".address")。html(config.address);
+        $(".qq")。html(config.qq);
+        $(".log")。html(config.log);
+        $(".self-intro")。html(config.welcome);
+        $(".me")。html(config.about);
+        $(".for-work")。html(config.excpect_work);
+        $(".profile-page .page-header")。css("background-image"， "url(" + config.url[0] + ")");
+        $(".myphoto")。attr("src", config.url[1]);
+        $(".portfolio-section")。css({
+            "background": "url(" + config.url[2] + ") no-repeat center top"，
+            "margin-top": "30px"，
+            "padding-top": "50px"，
+            "text-align": "center !important"，
+            "background-attachment": "relative !important"，
+            "background-position": "center center !important"，
+            "min-height": "800px"，
+            "width": "100%"，
+            "background-size": "100%"，
+            "background-size": "cover"，
             "position": "relative !important"
         });
-        $(".others-section").css("background", "url(" + config.url[3] + ")");
+        $(".others-section")。css("background"， "url(" + config.url[3] + ")");
         $(".desc").html(config.skills_description);
         //------E-------
 
