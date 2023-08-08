@@ -5,8 +5,8 @@ var config = {
     age: "20"，
     phone: "19870887127"，
     email: "happysnaker@foxmail.com"，
-    address: "现居浙江省义乌市"，
-    qq: "1637318597"，
+    address: "现居河南省南阳市"，
+    qq: "2163812424"，
     log: "Happysnaker"，
     excpect_work: "Java/Go后端开发"，
 
